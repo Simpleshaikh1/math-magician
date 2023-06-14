@@ -1,5 +1,5 @@
 :root {
-  --primary: #d81e5b;
+  --primary: rgb(220, 154, 31);
   --secondary: #8c3aff;
   --dark: #131a26;
   --light: #eee;
@@ -51,7 +51,7 @@ button {
   appearance: none;
   border: none;
   outline: none;
-  color: #fff;
+  color: black;
   font-size: 1rem;
   padding: 1rem;
   cursor: pointer;

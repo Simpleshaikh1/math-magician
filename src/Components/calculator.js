@@ -15,7 +15,6 @@ function Calculator() {
     <div className="App">
       <div className="calculator">
         <div className="display">
-          <span>(0)</span>
           0
         </div>
         <div className="ops-dig-container">
@@ -32,7 +31,7 @@ function Calculator() {
             <button type="button">+/-</button>
             <button type="button">AC</button>
             {createDigits()}
-            <button type="button">.</button>
+            <button type="button" className="dot">.</button>
             <button type="button" className="zero">0</button>
           </div>
         </div>
