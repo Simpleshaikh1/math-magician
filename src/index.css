@@ -3,8 +3,8 @@
   --secondary: #8c3aff;
   --dark: #131a26;
   --light: #eee;
-  --arsh: #bab4b4;
-  --light-arsh: #fff8f8;
+  --arsh: hsl(0, 1%, 56%);
+  --light-arsh: #cecaca;
 }
 
 * {
@@ -29,7 +29,6 @@ body {
   width: 100%;
   max-width: 400px;
   background-color: #fff;
-  border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0 2px 64px hsla(0, 0%, 0%, 0.2);
 }
@@ -71,12 +70,14 @@ button:hover {
 .operators {
   display: flex;
   flex-direction: column;
+  width: 7rem;
 }
 
 .operators button {
   flex: 1 1 0%;
   background-color: var(--primary);
   font-weight: 700;
+  border: 1px solid var(--arsh);
 }
 
 .digits {
@@ -87,7 +88,8 @@ button:hover {
 
 .digits button {
   flex: 1 1 33.333%;
-  max-width: 33.333%;
+  max-width: 50.333%;
   background-color: var(--light-arsh);
   color: var(--dark);
+  border: 1px solid var(--arsh);
 }

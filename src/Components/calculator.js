@@ -2,8 +2,7 @@ function Calculator() {
   const createDigits = () => {
     const digits = [];
 
-    // eslint-disable-next-line no-plusplus
-    for (let i = 1; i < 10; i++) {
+    for (let i = 9; i >= 1; i -= 1) {
       digits.push(
         <button type="button" key={i}>{i}</button>,
       );
@@ -21,8 +20,7 @@ function Calculator() {
         </div>
         <div className="ops-dig-container">
           <div className="operators">
-            <button type="button">DEL</button>
-            <button type="button">/</button>
+            <button type="button">÷</button>
             <button type="button">x</button>
             <button type="button">+</button>
             <button type="button">-</button>
@@ -30,12 +28,12 @@ function Calculator() {
           </div>
 
           <div className="digits">
-            <button type="button">^</button>
             <button type="button">%</button>
+            <button type="button">+/-</button>
             <button type="button">AC</button>
             {createDigits()}
-            <button type="button">0</button>
             <button type="button">.</button>
+            <button type="button" className="zero">0</button>
           </div>
         </div>
       </div>
