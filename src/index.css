@@ -77,7 +77,9 @@ button:hover {
   flex: 1 1 0%;
   background-color: var(--primary);
   font-weight: 700;
-  border: 1px solid var(--arsh);
+  border: 0.2px solid var(--arsh);
+  border-style: none none solid solid;
+  border-width: 1px;
 }
 
 .digits {
@@ -91,5 +93,7 @@ button:hover {
   max-width: 50.333%;
   background-color: var(--light-arsh);
   color: var(--dark);
-  border: 1px solid var(--arsh);
+  border: 1px solid rgb(189, 184, 184);
+  border-style: none none solid solid;
+  border-width: 1px;
 }
