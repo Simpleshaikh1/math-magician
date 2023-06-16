@@ -1,8 +1,13 @@
 import Calculator from './Components/calculator';
+import Qoutes from './Components/displayQoute';
 
 function App() {
   return (
-    <Calculator />
+    <div>
+      <Qoutes />
+      <Calculator />
+    </div>
+
   );
 }
 

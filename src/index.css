@@ -97,3 +97,8 @@ button:hover {
   border-style: none none solid solid;
   border-width: 1px;
 }
+
+.qoutes {
+  max-width: 50%;
+  
+}
