@@ -1,13 +1,25 @@
-import Calculator from './Components/calculator';
-import Qoutes from './Components/displayQoute';
+import React from 'react';
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
+import Home from './Routes/Home';
+import Calculator from './Routes/Calculator';
+import Qoutes from './Routes/displayQoute';
+import Layout from './Components/Layout';
+import PageNotFound from './Routes/PageNotFound';
 
 function App() {
   return (
-    <div>
-      <Qoutes />
-      <Calculator />
-    </div>
-
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/calculator" element={<Calculator />} />
+            <Route path="/quotes" element={<Qoutes />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
