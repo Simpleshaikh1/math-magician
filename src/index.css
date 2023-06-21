@@ -20,6 +20,7 @@ body {
 
 .App {
   display: flex;
+
   /* min-height: -90vh; */
   align-items: center;
   justify-content: center;
@@ -99,10 +100,6 @@ button:hover {
   border-width: 1px;
 }
 
-.qoutes {
-  max-width: 50%;
-}
-
 /* Home page */
 .home-page {
   display: flex;
@@ -172,6 +169,7 @@ nav a {
   text-align: center;
   margin-top: 1rem;
   padding: 0 1rem;
+  max-width: 50%;
 }
 
 /* loading */
