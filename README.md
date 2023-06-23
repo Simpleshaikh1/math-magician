@@ -174,9 +174,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Sahalu Aminu**
+👤 **Toyyib Bello**
 
 - GitHub: [@simpleshaikh1](https://github.com/simpleshaikh1)
+
+- Site: [@simpleshaikh1](https://math-magician-2ali.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
