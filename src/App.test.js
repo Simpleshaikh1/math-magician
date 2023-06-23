@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import Navbar from '../src/Components/Navbar';
-import Calculator from '../src/Logic/calculate';
-import Qoutes from '../src/Routes/displayQoute';
-import Home from '../src/Routes/Home';
+import Navbar from './Components/Navbar';
+import Calculator from './Logic/calculate';
+import Qoutes from './Routes/displayQoute';
+import Home from './Routes/Home';
 
 it('renders correctly', () => {
   const tree = renderer

@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate';
+import calculate from '../Logic/calculate';
 
 describe('calculate', () => {
   test('should clear calculator data when buttonName is "AC"', () => {
