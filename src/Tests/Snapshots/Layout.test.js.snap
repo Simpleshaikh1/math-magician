@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Layout correctly 1`] = `
+<div>
+  <header>
+    <h1>
+      Math Magicians
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="/"
+            style="color: orange;"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quotes"
+          >
+            Quotes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;

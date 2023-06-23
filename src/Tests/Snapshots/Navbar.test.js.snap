@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Navbar correctly 1`] = `
+<div>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="/"
+          style="color: orange;"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quotes"
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
