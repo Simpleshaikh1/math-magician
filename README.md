@@ -27,8 +27,8 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="public/cabsal.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <!-- <img src="public/cabsal.png" alt="logo" width="140"  height="auto" />
+  <br/> -->
 
   <h3><b>Math Magicians</b></h3>
 
@@ -220,6 +220,6 @@ I would like to thank Microverse and my Coding Partners.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
