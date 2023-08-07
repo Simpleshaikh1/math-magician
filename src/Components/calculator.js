@@ -7,7 +7,6 @@ function Calculator() {
         <button type="button" key={i}>{i}</button>,
       );
     }
-
     return digits;
   };
 
