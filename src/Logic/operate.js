@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Big from 'big.js';
+import { useEffect } from 'react';
 
 export default function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);
@@ -30,3 +31,4 @@ export default function operate(numberOne, numberTwo, operation) {
   }
   throw Error(`Unknown operation '${operation}'`);
 }
+
