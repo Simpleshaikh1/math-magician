@@ -26,15 +26,8 @@ const Qoutes = () => {
         setLoading(false);
       }
     };
-
-    try {
-      
-    } catch (error) {
-      
-    }
     fetchData();
   }, []);
-
   if (error) {
     return <p>Something went wrong!</p>;
   }
