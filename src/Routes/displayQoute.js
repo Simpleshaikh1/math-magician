@@ -15,7 +15,6 @@ const Qoutes = () => {
               'X-Api-Key': 'vZdI6eGz2cS+jTb71dvouA==X8Xd3lMbKviCRmqW',
             },
           });
-
         if (!response.ok) {
           throw new Error('Something went wrong!');
         }
@@ -27,10 +26,8 @@ const Qoutes = () => {
         setLoading(false);
       }
     };
-
     fetchData();
   }, []);
-
   if (error) {
     return <p>Something went wrong!</p>;
   }
