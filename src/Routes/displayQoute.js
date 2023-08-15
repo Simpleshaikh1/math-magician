@@ -5,7 +5,7 @@ const Qoutes = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
-// applying use  Effect
+  // applying use  Effect
   useEffect(() => {
     const fetchData = async () => {
       try {
