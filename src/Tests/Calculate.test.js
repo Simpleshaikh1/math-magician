@@ -1,7 +1,7 @@
 import calculate from '../Logic/calculate';
 
 describe('calculate', () => {
-  test('should clear calculator data when buttonName is "AC"', () => {
+  test('should clear calculator data when button-name is "AC"', () => {
     const result = calculate({ total: '10', next: '5', operation: '+' }, 'AC');
     expect(result).toEqual({
       total: null,
